@@ -8,6 +8,13 @@ services:
     container_name: travelshare-backend
     ports:
       - "8080:8080"
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: travelshare-frontend
+    ports:
+      - "80:80"
     # environment:
     #   - SPRING_PROFILES_ACTIVE=prod
     #   - SPRING_DATASOURCE_URL=jdbc:postgresql://database:5432/postgres
