@@ -14,7 +14,7 @@ build-run:
 
 # Käynnistää kontit taustalla
 up:
-	docker-compose -f $(COMPOSE_FILE) up -d
+	docker-compose -f $(COMPOSE_FILE) up
 
 # Näyttää lokit reaaliajassa
 logs:

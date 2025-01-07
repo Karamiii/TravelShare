@@ -1,6 +1,6 @@
 # Docker-tiedosto Spring Boot -sovellukselle (Gradle)
 
-# Perusimage, jossa on JDK (OpenJDK 17 tai 20, tarpeen mukaan)
+# Perusimage, jossa on JDK (OpenJDK 17)
 FROM eclipse-temurin:17-jdk
 
 # Aseta työskentelykansio kontissa
